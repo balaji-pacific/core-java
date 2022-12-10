@@ -70,9 +70,6 @@ public class CollectionFrameworksList {
 			System.out.println(str);
 			
 		}
-		
-		
-
 	}
 	
 	public static List<Integer> initializeList(List<Integer> list) {
