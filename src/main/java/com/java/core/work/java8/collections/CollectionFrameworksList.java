@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Spliterator;
 
 /**
- * @author balajisoundarrajan
+ * @author Balaji Soundarrajan
  *
  */
 public class CollectionFrameworksList {

@@ -6,7 +6,7 @@ package com.java.core.work.compare;
 import java.util.Comparator;
 
 /**
- * @author balajisoundarrajan
+ * @author Balaji Soundarrajan
  *
  */
 public class SortBySalary implements Comparator<Employee>{

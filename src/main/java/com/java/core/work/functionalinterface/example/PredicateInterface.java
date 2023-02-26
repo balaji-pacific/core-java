@@ -6,7 +6,7 @@ package com.java.core.work.functionalinterface.example;
 import java.util.List;
 
 /**
- * @author balajisoundarrajan
+ * @author Balaji Soundarrajan
  *
  */
 public interface PredicateInterface {

@@ -71,21 +71,7 @@ public class StreamsJava8 {
 		
 		List<Integer> flatList = allData.stream().flatMap(listl -> listl.stream()).collect(Collectors.toList());
 		System.out.println("After Flatten : " + flatList);
-		
-		
 	}
-	
-	public class GetStudent{
-		public static Student getStudent(int id) {
-			for (Student student : arrayOfStudents) {
-				if(id == student.getId()) {
-					return student;
-				}
-			}
-			return null;
-		}
-	}
-	
 }
 
 

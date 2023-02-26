@@ -45,7 +45,6 @@ public class FunctionlInterfaceExample{
 		
 		sorted.forEach(s -> System.out.println(s));
 		
-		
 		//Supplier Example -> Has no argument and return value
 		
 		SupplierInterface supplierInterface = () -> Math.random();

@@ -4,7 +4,7 @@
 package com.java.core.work.abstract_eg;
 
 /**
- * @author balajisoundarrajan
+ * @author Balaji Soundarrajan
  *
  */
 public class Circle extends Shape{

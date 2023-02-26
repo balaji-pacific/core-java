@@ -4,7 +4,7 @@
 package com.java.core.work.java8.streams;
 
 /**
- * @author balajisoundarrajan
+ * @author Balaji Soundarrajan
  *
  */
 public class EmployeeStream {

@@ -4,7 +4,7 @@
 package com.java.core.work.solid.ocp;
 
 /**
- * @author balajisoundarrajan
+ * @author Balaji Soundarrajan
  *
  */
 public class WhatsAppNotification{

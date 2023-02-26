@@ -9,7 +9,7 @@ import java.util.function.BinaryOperator;
 import java.util.stream.Collectors;
 
 /**
- * @author balajisoundarrajan
+ * @author Balaji Soundarrajan
  *
  */
 public class EmployeeStreamTest {
@@ -37,7 +37,7 @@ public class EmployeeStreamTest {
 		Long count =  employeeList.stream().filter(emp -> emp.getSalary() > 5000).map(EmployeeStream :: getName).collect(Collectors.counting());
 		System.out.println(count);
 		
-		//Print all the Employee name stroed in a list
+		//Print all the Employee name stored in a list
 		ArrayList<String> list = (ArrayList<String>) employeeList.stream().map(EmployeeStream::getName).collect(Collectors.toList());
 		list.forEach(System.out::println);
 		
@@ -47,6 +47,7 @@ public class EmployeeStreamTest {
 		
 		
 		//Grouping by Salary
+		System.out.println("Grouping :::");
 		employeeList.stream().collect(Collectors.groupingBy(EmployeeStream :: getSalary)).forEach((k,v) -> System.out.println("Key : " + k + "Value : " + v));
 		
 		

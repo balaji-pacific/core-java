@@ -4,7 +4,7 @@
 package com.java.core.work.interface_eg;
 
 /**
- * @author balajisoundarrajan
+ * @author Balaji Soundarrajan
  *
  */
 public class Circle implements Shape {

@@ -4,7 +4,7 @@
 package com.java.core.work.functionalinterface.example;
 
 /**
- * @author balajisoundarrajan
+ * @author Balaji Soundarrajan
  *
  */
 public interface SupplierInterface {

@@ -4,7 +4,7 @@
 package com.java.core.work.solid.dip;
 
 /**
- * @author balajisoundarrajan
+ * @author Balaji Soundarrajan
  *
  */
 public class ShoppingMallWithDIP implements BankCard{

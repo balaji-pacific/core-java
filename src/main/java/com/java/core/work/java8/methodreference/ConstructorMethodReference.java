@@ -4,7 +4,7 @@
 package com.java.core.work.java8.methodreference;
 
 /**
- * @author balajisoundarrajan
+ * @author Balaji Soundarrajan
  *
  */
 

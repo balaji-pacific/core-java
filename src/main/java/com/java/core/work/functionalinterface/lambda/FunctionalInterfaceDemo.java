@@ -4,7 +4,7 @@
 package com.java.core.work.functionalinterface.lambda;
 
 /**
- * @author balajisoundarrajan
+ * @author Balaji Soundarrajan
  *
  */
 

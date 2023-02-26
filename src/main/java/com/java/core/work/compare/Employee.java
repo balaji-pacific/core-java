@@ -4,7 +4,7 @@
 package com.java.core.work.compare;
 
 /**
- * @author balajisoundarrajan
+ * @author Balaji Soundarrajan
  *
  */
 public class Employee {

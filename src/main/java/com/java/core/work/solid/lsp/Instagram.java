@@ -4,7 +4,7 @@
 package com.java.core.work.solid.lsp;
 
 /**
- * @author balajisoundarrajan
+ * @author Balaji Soundarrajan
  *
  */
 public class Instagram implements SocialMedia, FeedPost{
