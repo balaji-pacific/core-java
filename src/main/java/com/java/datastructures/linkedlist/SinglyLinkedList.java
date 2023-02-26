@@ -5,7 +5,7 @@ package com.java.datastructures.linkedlist;
 
 /**
  * @author Balaji Soundarrajan
- *
+ * This class created for Example program of Singly linked list
  */
 public class SinglyLinkedList {
 	
@@ -15,7 +15,13 @@ public class SinglyLinkedList {
 	
 
 	/**
+	 * 
+	 * Main program of Singly linked list
+	 * Adding data at the head
+	 * Adding data at end
+	 * Traversing data
 	 * @param args
+	 * 
 	 */
 	public static void main(String[] args) {
 		
@@ -43,6 +49,10 @@ public class SinglyLinkedList {
 	}
 	
 	
+	/**
+	 * Adding data at the end (i.e)
+	 * @param node, contains inserting data
+	 */
 	public void addToListToTail(Node node) {
 		if(head == null) {
 			System.out.println("Singly Linked List is empty");
@@ -55,6 +65,11 @@ public class SinglyLinkedList {
 		size++;
 	}
 	
+	
+	/**
+	 * Adding data at the beginning
+	 * @param node, contains inserting data
+	 */
 	public void addToListHead(Node node) {
 		if(head == null) {
 			System.out.println("Singly Linked List is empty");
@@ -67,8 +82,10 @@ public class SinglyLinkedList {
 		size++;
 	}
 	
+	/**
+	 * Traversing the singly linked list starting from head to tail
+	 */
 	public void printList() {
-		
 		Node currentNode = head;
 		
 		if(currentNode == null) {

@@ -6,13 +6,12 @@ package com.java.datastructures.linkedlist;
 /**
  * @author Balaji Soundarrajan
  *
+ * This class created for working on sample singly linked list
  */
 public class Node {
 	
 	int data;
 	Node next;
-	
-	
 	
 	public Node(int data) {
 		super();
