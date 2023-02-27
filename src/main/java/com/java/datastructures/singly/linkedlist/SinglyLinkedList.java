@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.java.datastructures.linkedlist;
+package com.java.datastructures.singly.linkedlist;
 
 /**
  * @author Balaji Soundarrajan This class created for Example program of Singly
@@ -173,6 +173,7 @@ public class SinglyLinkedList {
 		tempNode = head;
 		while (tempNode.getData() != removeValue) {
 			
+			//DAta not available in the list and already reached the  
 			if(tempNode == tail) {
 				System.out.println("Data not available");
 				return null;

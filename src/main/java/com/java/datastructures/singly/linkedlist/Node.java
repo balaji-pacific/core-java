@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.java.datastructures.linkedlist;
+package com.java.datastructures.singly.linkedlist;
 
 /**
  * @author Balaji Soundarrajan
