@@ -39,6 +39,13 @@ public class DoublyLinkedList {
 		
 		System.out.println("From Tail to Head");
 		doublyLinkedList.traverseFromEndToFront();
+		
+		System.out.println("\nRemoving node from Tail");
+		doublyLinkedList.removeNodeTail();
+		doublyLinkedList.removeNodeTail();
+		doublyLinkedList.removeNodeTail();
+		doublyLinkedList.traverseFromFrontToEnd();
+		System.out.println("\nSize : " + size);
 	}
 	
 	/**
@@ -112,6 +119,33 @@ public class DoublyLinkedList {
 				currentNode = currentNode.prev;
 			}
 			System.out.print(" <- HEAD");
+		}
+	}
+	
+	/**
+	 * Remove the element from Front side of the list
+	 */
+	public void removeNodeFront() {
+		
+		if(head == null) {
+			System.out.println("List is empty");
+		}else {
+			head = head.next;
+			head.prev = tail.next;
+			size --;
+		}
+	}
+	
+	/**
+	 * Remove the element from the back side of the list
+	 */
+	public void removeNodeTail() {
+		if(head == null) {
+			System.out.println("List is empty");
+		}else {
+			tail = tail.prev;
+			tail.next = head.prev;
+			size --;
 		}
 	}
 
