@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.java.datastructures.doubly.queue;
+package com.java.datastructures.queue;
 
 import java.util.NoSuchElementException;
 
